@@ -10,7 +10,7 @@ import threading
 import pyaudio
 
 API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer gf_qkwnfdkabsfkabUJBbjUBbJUBiJzzc"}  #These are not the actual credentials of the api.
 
 def query(payload):
 	response = requests.post(API_URL, headers=headers, json=payload)
