@@ -3,7 +3,7 @@ import io
 from PIL import Image
 import streamlit as st
 import random
-import pyttsx3
+#import pyttsx3
 import speech_recognition as sr
 import time
 import threading
@@ -83,23 +83,23 @@ while(start_but):
     time.sleep(2)
     with st.empty():
      st.text("Say your answer...")
-     speakText("Say your answer...")
+     # speakText("Say your answer...")
      voice_input=audio_input()
     #  if voice_input=="Time Out":
     #     speakText("Time Out")
      st.text(voice_input)
     if(animal_name in voice_input):
-        speakText("Yes your answer is correct. This is a"+ animal_name)
+        # speakText("Yes your answer is correct. This is a"+ animal_name)
         st.subheader(animal_name)
         placeholder.empty()  
     elif(voice_input=="Time Out"):
-       speakText(voice_input)
-       speakText("The correct answer is"+ animal_name)
+       # speakText(voice_input)
+       # speakText("The correct answer is"+ animal_name)
        st.subheader(animal_name)
        placeholder.empty()
     else:
-        speakText("Incorrect")
-        speakText("This is a"+ animal_name)
+        # speakText("Incorrect")
+        # speakText("This is a"+ animal_name)
         st.subheader(animal_name)
         placeholder.empty()
   elif box=="BIRDS":
@@ -108,21 +108,21 @@ while(start_but):
      time.sleep(2)
      with st.empty():
       st.text("Say your answer...")
-      speakText("Say your answer...")
+      # speakText("Say your answer...")
       voice_input = audio_input()
       st.text(voice_input)
      if (bird_name in voice_input):
-        speakText("Yes your answer is correct. This is a" + bird_name)
+        # speakText("Yes your answer is correct. This is a" + bird_name)
         st.subheader(bird_name)
         placeholder.empty()
      elif(voice_input=="Time Out"):
-       speakText(voice_input)
-       speakText("The correct answer is"+ bird_name)
+       # speakText(voice_input)
+       # speakText("The correct answer is"+ bird_name)
        st.subheader(bird_name)
        placeholder.empty()
      else:
-        speakText("Incorrect")
-        speakText("This is a" + bird_name)
+        # speakText("Incorrect")
+        # speakText("This is a" + bird_name)
         st.subheader(bird_name)
         placeholder.empty()
   elif box=="INSECTS":
@@ -131,21 +131,21 @@ while(start_but):
      time.sleep(2)
      with st.empty():
       st.text("Say your answer...")
-      speakText("Say your answer...")
+      # speakText("Say your answer...")
       voice_input = audio_input()
       st.text(voice_input)
      if (insect_name in voice_input):
-        speakText("Yes your answer is correct. This is a" + insect_name)
+        # speakText("Yes your answer is correct. This is a" + insect_name)
         st.subheader(insect_name)
         placeholder.empty()
      elif(voice_input=="Time Out"):
-       speakText(voice_input)
-       speakText("The correct answer is"+ insect_name)
+       # speakText(voice_input)
+       # speakText("The correct answer is"+ insect_name)
        st.subheader(insect_name)
        placeholder.empty()
      else:
-        speakText("Incorrect")
-        speakText("This is a" + insect_name)
+        # speakText("Incorrect")
+        # speakText("This is a" + insect_name)
         st.subheader(insect_name)
         placeholder.empty()
 
