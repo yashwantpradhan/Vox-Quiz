@@ -23,22 +23,22 @@ Python: Core language used for the entire project.
 📦 Installation
 
 Clone the repository:
-git clone https://github.com/yashwantpradhan/Vox-Quiz.git
+`git clone https://github.com/yashwantpradhan/Vox-Quiz.git`
 
 Navigate to the project directory:
-cd Vox-Quiz
+`cd Vox-Quiz`
 
 Create and activate a virtual environment (optional but recommended):
-python3 -m venv venv source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+`python3 -m venv venv source venv/bin/activate`
 
 Install the required dependencies:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 Run the application:
-streamlit run app.py
+`streamlit run app.py`
 
 Open your browser and navigate to:
-http://localhost:8501
+`http://localhost:8501`
 
 
 
@@ -60,17 +60,17 @@ If the answer is incorrect ❌ or if time runs out ⏳, the correct answer will 
 
 Ensure you have the following dependencies installed:
 
-requests
+`requests`
 
-Pillow
+`Pillow`
 
-streamlit
+`streamlit`
 
-random
+`random`
 
-speech_recognition
+`speech_recognition`
 
-pyaudio
+`pyaudio`
 
 
 🤝 Contributing
