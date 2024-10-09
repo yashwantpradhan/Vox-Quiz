@@ -39,3 +39,66 @@ streamlit run app.py
 
 Open your browser and navigate to:
 http://localhost:8501
+
+
+
+🎮 How to Play
+
+Choose a category from the options: Animals 🐯, Birds 🦅, or Insects 🐜.
+
+Click Start 🟢 to generate an image from the selected category.
+
+The image will be displayed, and you’ll be prompted to say your answer aloud 🎙️.
+
+The app will use speech recognition to process your answer.
+
+If your answer is correct ✅, you'll get immediate feedback!
+
+If the answer is incorrect ❌ or if time runs out ⏳, the correct answer will be displayed.
+
+📋 Dependencies
+
+Ensure you have the following dependencies installed:
+
+requests
+
+Pillow
+
+streamlit
+
+random
+
+speech_recognition
+
+pyaudio
+
+
+🤝 Contributing
+
+
+If you'd like to contribute to the project, follow these steps:
+
+Fork the repository 🍴.
+
+Create a new branch (git checkout -b feature-branch).
+
+Make your changes.
+
+Commit your changes (git commit -m 'Add some feature').
+
+Push to the branch (git push origin feature-branch).
+
+Open a pull request 🔄.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+🎉 Acknowledgments
+
+Hugging Face API for image generation.
+
+Google Speech Recognition API for voice input.
+
+Streamlit for the user interface.
+
